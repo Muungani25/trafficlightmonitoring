@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: traffic
+  datasource:
+    url: jdbc:mysql://localhost:3306/traffic_monitoring
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 'Tafadzwa@25'
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
+
+
+
+server:
+  port: 8025
